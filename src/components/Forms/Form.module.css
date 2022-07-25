@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1120px;
+  width: 98%;
+  border-radius: .2rem;
+  background: #fff;
+  box-shadow: 0 0 5px #ccc;
+  padding: 1rem 0;
+  margin: 2rem auto;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  border-radius: .2rem;
+  border: solid 1px #ccc;
+  font-size: 1rem;
+  margin-top: .25rem;
+  padding: .5rem 1rem;
+  outline: none;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.radio label {
+  flex-direction: row;
+  column-gap: .5rem;
+}
+
+.adicionar {
+  border-radius: .2rem;
+  border: none;
+  background: #008080;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+
+.adicionar:focus,
+.adicionar:hover {
+  
+}
+
+@media ( max-width: 40rem ) {
+  .form {
+    display: grid;
+  }
+}
