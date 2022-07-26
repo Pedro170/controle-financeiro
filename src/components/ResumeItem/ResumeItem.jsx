@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './ResumeItem.module.css'
 
-const ResumeItem = ({ header, value='1000', children }) => {
+const ResumeItem = ({ header, value, children }) => {
   return (
     <div className={ styles.containerCard }>
       <header className={ styles.header }>
-        { header }
+        <p>{ header }</p>
         { children }
       </header>
-      <span>{ value }</span>
+      <span className={ styles.value }>{ value }</span>
     </div>
   )
 }

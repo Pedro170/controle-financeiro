@@ -1,0 +1,21 @@
+.td {
+  padding-top: 1rem;
+  text-align: center;
+  word-break: break-all;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+@media ( max-width: 40rem ) {
+  .td {
+    text-align: start;
+  }
+}
